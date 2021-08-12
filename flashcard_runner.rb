@@ -40,3 +40,5 @@ puts "****** Game Over! ******"
 puts "You had #{round.number_correct} correct guesses out of #{cards.length} for a total score of #{round.percent_correct.to_i}%"
 puts "STEM - #{round.percent_correct_by_category(:STEM).to_i}% correct"
 puts "Geography - #{round.percent_correct_by_category(:Geography).to_i}% correct"
+
+puts "\n\n"
